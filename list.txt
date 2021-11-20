@@ -1,3 +1,2 @@
-2620:0:ccd::2
-www.facebook.com
-8.8.8.8
+192.168.88.227
+www.logoff.co.za

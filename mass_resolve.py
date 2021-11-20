@@ -37,10 +37,13 @@ for ip in lines:
 			nslookup="nslookup %s %s | grep name" % (ip,dnsserver)
 			#capture the output
 			nslookupresult = subprocess.run(nslookup, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-			result = (nslookupresult.stdout).strip("\n")
-			result = (result.split())
-			#write to file
-			dnsresults.write("%s %s\n" % (ip,result[3]))
+			#result = (nslookupresult.stdout).strip("\n")
+			result = (nslookupresult.stdout).split("\n")
+			for line in result:
+				if line != '':
+					a = (line.split())
+					#write to file
+					dnsresults.write("%s %s\n" % (ip,a[3]))
 		#if no reverse 
 		else:
 			#write to file
