@@ -1,11 +1,8 @@
 192.168.88.227 www.finalspace.local.
 192.168.88.227 mail.finalspace.local.
 192.168.88.227 ns1.finalspace.local.
-www.logoff.co.za 185.199.108.153
-www.logoff.co.za 185.199.109.153
-www.logoff.co.za 185.199.110.153
-www.logoff.co.za 185.199.111.153
-www.logoff.co.za 2606:50c0:8002::153
-www.logoff.co.za 2606:50c0:8001::153
-www.logoff.co.za 2606:50c0:8000::153
-www.logoff.co.za 2606:50c0:8003::153
+8.8.8.8 dns.google.
+www.facebook.com 102.132.99.35
+www.facebook.com 2a03:2880:f163:81:face:b00c:0:25de
+2620:0:ccd::2 resolver2.ipv6-sandbox.opendns.com.
+2620:0:ccd::2 sandbox.opendns.com.
