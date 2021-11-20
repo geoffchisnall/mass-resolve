@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 #MASS RESOLVER
 #Author: Geoffrey Chisnall
-#2020
 
 import subprocess,os,ipaddress,sys
 from subprocess import Popen, PIPE, STDOUT
